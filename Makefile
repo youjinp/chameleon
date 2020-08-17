@@ -1,8 +1,5 @@
 build:
-	go build -o cmd/main ./cmd
-
-run:
-	go build -o cmd/main ./cmd && ./cmd/main
+	go build -o main
 
 update:
 	go get -u ./...
