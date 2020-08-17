@@ -32,7 +32,7 @@ changelog:
       - "^test:"
 brews:
   - name: chameleon
-    github:
+    tap:
       owner: youjinp
       name: homebrew-brew
     url_template: "https://github.com/youjinp/chameleon/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
