@@ -1,5 +1,7 @@
 # Chameleon
 
+[![Latest release](https://img.shields.io/github/release/youjinp/chameleon.svg)](https://github.com/youjinp/chameleon/releases)
+
 A CLI tool that helps with copying DynamoDB data.
 
 ## Installation
