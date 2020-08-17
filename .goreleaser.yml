@@ -30,7 +30,7 @@ changelog:
     exclude:
       - "^docs:"
       - "^test:"
-brew:
+brews:
   name: chameleon
   github:
     owner: youjinp
