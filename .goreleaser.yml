@@ -31,11 +31,11 @@ changelog:
       - "^docs:"
       - "^test:"
 brews:
-  name: chameleon
-  github:
-    owner: youjinp
-    name: homebrew-brew
-  url_template: "https://github.com/youjinp/chameleon/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-  folder: Formula
-  homepage: "https://github.com/youjinp/chameleon"
-  description: "Chameleon is a CLI tool that helps with copying DynamoDB data."
+  - name: chameleon
+    github:
+      owner: youjinp
+      name: homebrew-brew
+    url_template: "https://github.com/youjinp/chameleon/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    folder: Formula
+    homepage: "https://github.com/youjinp/chameleon"
+    description: "Chameleon is a CLI tool that helps with copying DynamoDB data."
