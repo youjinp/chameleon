@@ -9,8 +9,7 @@ A CLI tool that helps with copying DynamoDB data.
 ### Homebrew
 
 ```bash
-brew tap youjinp/brew
-brew install chameleon
+brew install youjinp/brew/chameleon
 ```
 
 ## Usage
